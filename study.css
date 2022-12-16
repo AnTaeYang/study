@@ -1,0 +1,87 @@
+@import url("./normalize.css");
+@import url("./reset.css");
+@import url("./font.css");
+/* a태그 밑줄 삭제 */
+a {
+  text-decoration: none;
+}
+
+/* 헤더 */
+.heading {
+  background: #000000;
+}
+
+.navi {
+  background-color: rgb(104, 95, 84);
+  display: inline-block;
+}
+/* 로고 */
+
+.logo:hover,
+.abstract:hover {
+  color: gray;
+}
+
+
+.logo {
+  background: #000000;
+  display: inline-block;
+  height: 23px;
+  width: 23px;
+  margin-top: 5px;
+  margin-bottom: -4px;
+}
+
+.abstract {
+  color: #fff;
+  font-size: 17px;
+  background-color: blue;
+    display: inline-block;
+
+}
+
+.none {
+  color: #fff;
+  font-size: 17px;
+  background-color: lightcoral;
+}
+
+.home {
+  color: #fff;
+  font-size: 17px;
+  background-color: aquamarine;
+}
+
+.home:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.preface {
+  background-color: aqua;
+  
+}
+
+.support {
+  background-color: #000000;
+  display: inline-block;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+  height: 30px;
+  width: 130px;
+  text-align: center;
+}
+
+.sign {
+  background-color: #4c5fd5;
+  display: inline-block;
+  border: 1px solid #fff;
+  color: #fff;
+  height: 30px;
+  width: 70px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  text-align: center;
+  
+}
